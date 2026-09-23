@@ -4,6 +4,7 @@
   --primary-color: #4CAF50;
   --font-size: 18px;
   --col-width: 23vw;
+  --primary-green:#A5CD39;
 }
 
 body {
@@ -23,6 +24,7 @@ button {
   flex-wrap:wrap;
   align-items:center;
   justify-content: space-between;
+  background-color: var(--primary-green);
 }
 .column {
   width: var(--col-width);
