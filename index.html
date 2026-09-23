@@ -1,41 +1,99 @@
 <!DOCTYPE html>
-<HTML>
-    <head>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <div class="header">
-                <img src="storage/logo.jpg" alt="Savia Terra | Logo">
-                <div class="link">
-                    <a href="/chi-siamo">Chi siamo</a>
-                    <a href="/shop">Shop</a>
-                    <a href="/contatti">Contatti</a>                    
-                </div>
-            </div>
-        </header>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Savia Terra | Prodotti tipici dal meridione</title>
+    <meta name="description" content="Savia Terra: prodotti tipici dal meridione che lavora. Pomodori, passate, pesche e succhi.">
+    <link rel="icon" href="storage/logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-    
-        <main>
-            <div class="main-container">
+    <header class="site-header">
+        <div class="header">
+            <a class="brand" href="./">
+                <img src="storage/logo.jpg" alt="Savia Terra | Logo">
+                Savia Terra
+            </a>
+            <nav class="link">
+                <a href="#prodotti">Prodotti</a>
+                <a href="#chi-siamo">Chi siamo</a>
+                <a href="#contatti">Contatti</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div>
                 <h1>Savia Terra</h1>
                 <p>Prodotti tipici dal meridione che lavora</p>
+                <a class="button" href="#prodotti">Scopri i prodotti</a>
             </div>
-            <div class="main-container">
-                <div class="glass-card">
-                    <h2>Pomodori e passate</h2>
-                </div>
-                <div class="glass-card">
-                    <h2>Pesche e succhi</h2>
-                </div>
-                <div class="glass-card" style="background-image:url("storage/4.jpg">
-                    
-                </div>
-            </div>
-        </main>
-    
-        <footer>
+        </section>
 
-        </footer>
-    </body>
-</HTML>
+        <!-- Prodotti -->
+        <section id="prodotti" class="section products">
+            <div class="container">
+                <h2 class="section-title">I nostri prodotti</h2>
+                <p class="section-intro">Coltivati e lavorati con cura, seguendo i ritmi della terra e le ricette di una volta.</p>
+
+                <div class="main-container">
+                    <div class="glass-card">
+                        <div class="dot tomato"></div>
+                        <h3>Pomodori e passate</h3>
+                        <p>Pomodori raccolti a piena maturazione e trasformati in passate dal sapore autentico.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="dot peach"></div>
+                        <h3>Pesche e succhi</h3>
+                        <p>Pesche dolci e succose, anche in succhi e nettari genuini.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="dot green"></div>
+                        <h3>Dalla nostra terra</h3>
+                        <p>Frutta e ortaggi di stagione, dal campo alla tua tavola.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chi siamo -->
+        <section id="chi-siamo" class="section">
+            <div class="container about">
+                <img src="storage/4.jpg" alt="I campi di Savia Terra">
+                <div>
+                    <h2 class="section-title">Chi siamo</h2>
+                    <p>Savia Terra nasce dall'amore per il Sud e per il lavoro nei campi. Portiamo sulle vostre tavole i sapori tipici del meridione, frutto di una terra generosa e di mani che la lavorano ogni giorno.</p>
+                    <p>Crediamo in un'agricoltura rispettosa, nella stagionalità e nella qualità di prodotti semplici e genuini.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contatti -->
+        <section id="contatti" class="section contact">
+            <div class="container">
+                <h2 class="section-title">Contatti</h2>
+                <p class="section-intro">Vuoi ordinare o avere informazioni sui nostri prodotti? Scrivici!</p>
+                <div class="actions">
+                    <a class="button" href="https://www.facebook.com/p/Savia-Terra-100066953913425/" target="_blank" rel="noopener">Seguici su Facebook</a>
+                    <!-- Sostituisci con la tua email reale -->
+                    <a class="button outline" href="mailto:info@example.com">Scrivici una email</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Savia Terra · Prodotti tipici dal meridione ·
+            <a href="https://www.facebook.com/p/Savia-Terra-100066953913425/" target="_blank" rel="noopener">Facebook</a>
+        </p>
+    </footer>
+
+</body>
+</html>
