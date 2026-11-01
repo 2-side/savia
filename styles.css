@@ -656,7 +656,7 @@ footer .social a:hover { background: rgba(165, 205, 57, 0.25); }
   .checker { grid-template-columns: 1fr; }
   .checker article .info { background: #fff; color: var(--text); }
   .checker article img { order: 0; }
-  .checker article:nth-child(even) img { order: 2; }
+  .checker article:nth-child(even) img { order: 0; }/*HERE WAS 2*/
   .checker article:nth-child(even) .info { background: var(--earth); color: #fff; }
 
   .gallery { grid-template-columns: repeat(2, 1fr); grid-auto-rows: 180px; }
